@@ -9,6 +9,7 @@
 pub mod biquad;
 pub mod crush;
 pub mod one_pole;
+pub mod pan;
 pub mod phase;
 pub mod rng;
 pub mod sine;
