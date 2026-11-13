@@ -1,0 +1,9 @@
+[package]
+name = "klang-dsp"
+version = "0.1.0"
+edition = "2024"
+description = "Realtime DSP primitives shared by the klang-studio projects"
+publish = false
+
+[dependencies]
+libm = "0.2"
