@@ -7,6 +7,7 @@
 #![cfg_attr(not(test), no_std)]
 
 pub mod biquad;
+pub mod buffer;
 pub mod crush;
 pub mod one_pole;
 pub mod pan;
