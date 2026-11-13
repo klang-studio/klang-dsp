@@ -9,6 +9,7 @@
 pub mod biquad;
 pub mod buffer;
 pub mod crush;
+pub mod meter;
 pub mod one_pole;
 pub mod pan;
 pub mod phase;
