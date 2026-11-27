@@ -1,0 +1,14 @@
+[package]
+name = "klang-synth"
+version = "0.1.0"
+edition = "2024"
+license = "GPL-3.0-or-later"
+description = "Opt-in synth building blocks on top of klang-dsp, starting with a cyclic LFO core"
+publish = false
+
+[dependencies]
+klang-dsp = { path = ".." }
+
+[dev-dependencies]
+# Realtime test only: proves that the LFO core never allocates.
+assert_no_alloc = "1.1.2"
