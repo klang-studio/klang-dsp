@@ -8,3 +8,6 @@ publish = false
 
 [dependencies]
 libm = "0.2"
+
+[workspace]
+members = ["klang-synth"]
